@@ -4,3 +4,5 @@
 
 .par{margin-left: auto;
 margin-right: auto;}
+
+button:hover{cursor: pointer;}

@@ -1,10 +1,23 @@
-.projects{ 
-    justify-content: center;
-    margin-top: 300px;
-
-    margin-bottom: 400px;
-}
-
-.content{margin-left: auto;
-    max-width: 800px;
-margin-right: auto;}
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .site-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .site-pic {
+    flex: 0 0 auto;
+    margin-right: 30px}
+  
