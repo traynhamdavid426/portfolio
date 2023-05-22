@@ -7,8 +7,8 @@ const Projects =() => {
         pic: 'image',
         app: 'Dojo App',
         description:'Built with HTML,CSS, React JS, Javascript, Tachyons and various other libraries.A  responsive, engaging MMA gym app. Get updates on classes dynamically on a daily basis; view the full schedule; send us an email with any questions or browse the site for more information.',
-        live: <a href='https://traynhamdavid426.github.io/dojo-app/' target='_blank'> <button>Live Code</button></a>,
-        source: <a href="https://github.com/traynhamdavid426/dojo-app" target="_blank"> <button>Source Code</button></a>,
+        live: <a href='https://traynhamdavid426.github.io/dojo-app/' target='_blank'> <button >Live Code</button></a>,
+        source: <a href="https://github.com/traynhamdavid426/dojo-app" target="_blank"> <button >Source Code</button></a>,
     },
     {
         pic: 'image',
@@ -26,12 +26,12 @@ const Projects =() => {
     }
     ];
 
-    const Sitelist =({pic,description,app,live,source}) => {return(<div id="projects">
-        <div className="fl mw-35 ma3  pa3 tc outline mb"> <div className=" ">{pic}</div>
+    const Sitelist =({pic,description,app,live,source}) => {return(<div id="projects ">
+        <div className="fl mw-35 ma3 br4 shadow  pa3 tc outline mb"> <div className=" ">{pic}</div>
          <div>
-         <div className="">{app}</div>
-        <div className=" measure-narrow ">{description}</div> 
-         <div className="grow mt3 p2 br4">{live}</div>
+         <div className=" fw8 f2 mb2 mt2 navy">{app}:</div>
+        <div className=" measure-narrow f4 dark-blue fw7 ">{description}</div> 
+         <div className="grow  mt3 p2 br4">{live}</div>
         < div className="grow mt2"> {source}</div></div></div>
 
     </div>)}
@@ -52,7 +52,7 @@ const Projects =() => {
   
     
     return(<div className="projects ">
-    <h1 className="tc ">Projects:</h1>
+    <h1 className="tc f2 ">Projects:</h1>
   <div className=""><div className="content "> <Sitedisplay/></div></div>
 </div>)}
 

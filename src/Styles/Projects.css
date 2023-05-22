@@ -20,4 +20,6 @@
   .site-pic {
     flex: 0 0 auto;
     margin-right: 30px}
+
+    .shadow{box-shadow: 7px 7px rgb(106, 103, 103) ;}
   

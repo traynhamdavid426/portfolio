@@ -6,3 +6,15 @@
 margin-right: auto;}
 
 button:hover{cursor: pointer;}
+
+button{ background-color:rgb(139, 146, 171);
+color: white;
+border: bold;
+padding: 4px;
+font-size: large;
+border-style: inset;
+border-width: 10px;
+font-weight: bolder;
+border-radius: 20px;
+border-color:rgb(0, 0, 0);
+box-shadow: 4px 4px rgb(146, 142, 142);}
