@@ -1,0 +1,10 @@
+.projects{ 
+    justify-content: center;
+    margin-top: 300px;
+
+    margin-bottom: 400px;
+}
+
+.content{margin-left: auto;
+    max-width: 800px;
+margin-right: auto;}
