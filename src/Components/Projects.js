@@ -27,10 +27,10 @@ const Projects =() => {
     ];
 
     const Sitelist =({pic,description,app,live,source}) => {return(<div id="projects ">
-        <div className="fl mw-35 ma3 br4 shadow  pa3 tc outline mb"> <div className=" ">{pic}</div>
+        <div className="fl mw-35 ma3 br4 shadow  pa3 tc outline mb"> <div className=" white">{pic}</div>
          <div>
-         <div className=" fw8 f2 mb2 mt2 navy">{app}:</div>
-        <div className=" measure-narrow f4 dark-blue fw7 ">{description}</div> 
+         <div className=" fw8 f2 mb2 mt2 white">{app}:</div>
+        <div className=" measure-narrow f4 white fw7 ">{description}</div> 
          <div className="grow  mt3 p2 br4">{live}</div>
         < div className="grow mt2"> {source}</div></div></div>
 
@@ -52,7 +52,7 @@ const Projects =() => {
   
     
     return(<div className="projects ">
-    <h1 className="tc f2 ">Projects:</h1>
+    <h1 className="tc fw8 white f1 ">Projects:</h1>
   <div className=""><div className="content "> <Sitedisplay/></div></div>
 </div>)}
 

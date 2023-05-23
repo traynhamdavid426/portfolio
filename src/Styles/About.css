@@ -7,14 +7,15 @@ margin-right: auto;}
 
 button:hover{cursor: pointer;}
 
-button{ background-color:rgb(139, 146, 171);
+button{ background: linear-gradient( 77deg,rgb(52, 227, 210),black,gray 95%,gray,aqua,gray,aqua);
 color: white;
+text-decoration: solid;
 border: bold;
 padding: 4px;
-font-size: large;
-border-style: inset;
+font-size: x-large;
+border-style: outset;
 border-width: 10px;
-font-weight: bolder;
-border-radius: 20px;
-border-color:rgb(0, 0, 0);
-box-shadow: 4px 4px rgb(146, 142, 142);}
+font-weight: bolder ;
+border-radius: 10px;
+border-color: white;
+box-shadow: 1px 1px rgb(198, 194, 194);}
