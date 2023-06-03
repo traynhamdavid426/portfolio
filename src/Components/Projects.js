@@ -51,7 +51,7 @@ const Projects =() => {
     </div>)}
   
     
-    return(<div className="projects ">
+    return(<div className="projects " id="projects">
     <h1 className="tc fw8 white f1 ">Projects:</h1>
   <div className=""><div className="content "> <Sitedisplay/></div></div>
 </div>)}
