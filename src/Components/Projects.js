@@ -1,21 +1,23 @@
 import React from "react";
 import '../Styles/Projects.css'
+import catadopt from '../Styles/images/catadoptportfolio.jpg';
+import dojo from '../Styles/images/dojoportfolio.jpg';
 
 const Projects =() => {
     
     const Sites =[{
-        pic: 'image',
+        pic:  <img className='tc ' src={dojo} alt="jistu" style={{ width: '300px', height: '300px' }} />,
         app: 'Dojo App',
-        description:'Built with HTML,CSS, React JS, Javascript, Tachyons and various other libraries.A  responsive, engaging MMA gym app. Get updates on classes dynamically on a daily basis; view the full schedule; send us an email with any questions or browse the site for more information.',
-        live: <a href='https://traynhamdavid426.github.io/dojo-app/' target='_blank'> <button >Live Code</button></a>,
-        source: <a href="https://github.com/traynhamdavid426/dojo-app" target="_blank"> <button >Source Code</button></a>,
+        description:'A  responsive, engaging MMA gym app. Get updates on classes dynamically on a daily basis; view the full schedule; send us an email with any questions or browse the site for more information.Built with HTML,CSS, React JS, Javascript, Tachyons and various other libraries.',
+        live: <a href='https://traynhamdavid426.github.io/dojo-app/' target='_blank'rel="noreferrer" > <button >Live Code</button></a>,
+        source: <a href="https://github.com/traynhamdavid426/dojo-app" target="_blank" rel="noreferrer" > <button >Source Code</button></a>,
     },
     {
-        pic: 'image',
+        pic:  <img className='tc ' src={catadopt} alt="jistu" style={{ width: '300px', height: '300px' }} />,
         app: 'Cat adopt app',
-        description:'Come learn infinite cat facts; what type of cat fits you personally, get greeted by our dynamic site and navigate the integration of google maps api,so you may find your furry friend. Built with React JS, HTML, CSS, Javascript and various libraries.',
-        live: <a href='https://traynhamdavid426.github.io/catadopt/' target="_blank"><button>Live Code</button></a>,
-        source: <a href="https://github.com/traynhamdavid426/catadopt" target="_blank"> <button>Source Code</button></a>
+        description:'Come learn infinite cat facts; what type of cat fits you personally, get greeted by our dynamic site and navigate the integration of google maps api,so you may find your furry friend.Built with React JS, HTML, CSS, Javascript and various libraries. ',
+        live: <a href='https://traynhamdavid426.github.io/catadopt/' target="_blank" rel="noreferrer" ><button>Live Code</button></a>,
+        source: <a href="https://github.com/traynhamdavid426/catadopt" target="_blank" rel="noreferrer" > <button>Source Code</button></a>
     },
     {
         pic: 'image',

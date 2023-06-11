@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/About.css";
 
+
 const About =() => {return(<div id="about" className="about">
 
     <h1 className="tc f1 ">David Traynham </h1>

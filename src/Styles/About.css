@@ -6,6 +6,11 @@
 margin-right: auto;}
 
 button:hover{cursor: pointer;}
+.full-screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;}
+    .body{background-image: url(/src/Styles/images/softwarebackground.jpg);}
 
 button{ background: linear-gradient( 77deg,rgb(52, 227, 210),black,gray 95%,gray,aqua,gray,aqua);
 color: white;
